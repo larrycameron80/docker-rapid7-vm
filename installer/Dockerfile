@@ -1,9 +1,9 @@
 FROM ubuntu:16.04
 
 # Set environment variables
-ENV R7_VM_VERSION 6.5.6
+ENV R7_VM_VERSION 6.5.7
 ENV R7_VM_BIN Rapid7Setup-Linux64.bin
-ENV R7_VM_DOWNLOAD_MD5 8b109acd8f410eae074c03d523e9350a
+ENV R7_VM_DOWNLOAD_MD5 39ae7e18274fbac2c9ae2d446d0bbfde
 
 ADD VERSION .
 
